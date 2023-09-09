@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-node@v3
-      - uses: /.github/actions/ci-setup
+      - uses: ./github/actions/ci-setup
 
       - name: Install Dependencies
         run: npm i
