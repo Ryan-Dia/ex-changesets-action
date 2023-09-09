@@ -6,7 +6,6 @@ runs:
       uses: actions/setup-node@v3
       with:
         node-version: 18.x
-        cache: yarn
 
     - name: Install Dependencies
       run: npm install --no-save
